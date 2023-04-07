@@ -14,7 +14,7 @@ if (isset($_POST['btn']))
 	//$add=$_POST['6'];
 	$un=$_POST['7'];
  	$con=mysqli_connect("localhost","root","","ronak_db");
- 	$q="insert into tb_registration values('','$un','$em','$Pw','$cn')";
+ 	$q="insert into tb_registration values('','$un','$Pw','$em','$cn')";
  	$c=mysqli_query($con,$q);
 
  	
